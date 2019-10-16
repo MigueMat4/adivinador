@@ -91,7 +91,7 @@ int main()
             cout << endl;
             comparar_cadenas(combinacion, respuesta);
             system("pause");
-        }while(adivino == false && intento <= 2);
+        }while(adivino == false && intento <= 10);
         system("CLS");
         if (adivino)
             cout << "Lo has logrado :)\nFelicitaciones!" << endl;
